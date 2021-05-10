@@ -3,14 +3,14 @@
 * Xiao Yu
 * 2021/03/15
 
-## 主要内容
+## Main Content
 
-总共包含7个 jupyter notebook (含注释)
+There are seven jupyter notebooks (including comments)
 
-1. `mortality_prediction.ipynb` ：包含基本数据预处理，作为对比，取每个时序生命体征的 max, min, median, mean, std 作为基本特征来预测患者早期死亡率。
-2. `models_fine-tuning.ipynb` ：对模型超参数进行微调，包括         logistic regression (LR), k-nearest neighbor (KNN), gaussian naive byes (GaussianNB), support vector classification (SVC), decision tree (DT), random forest (RF), adaptive boosting (AdaBoost), gradient boosting decision tree (GBDT), light gradient boosting machine (LightGBM). 
-3. `models_shap_analysis.ipynb` ：通过shap value (A Unified Approach to Interpreting Model Predictions) 作模型解释性分析。
-4. `test_critical_value.ipynb` ：构建危急值特征，无效果提升。
-5. `feature_create_vital_signs.ipynb` ：使用自动化工具tsfresh          ([https://tsfresh.readthedocs.io](https://tsfresh.readthedocs.io/en/latest/)) 构建生命体征时序特征，以及初步效果测试。
-6. `time_interval_validation_vital_signs.ipynb` ：探究不同时间窗口对患者最终预测效果的影响。
-7. `nums_of_feature_comparsion.ipynb` ***(final)*** ：探究时序特征个数对最终预测结果的影响，以及各个指标的交叉验证、结果对比、作图等。
+1. `mortality_prediction.ipynb` ：Include basic data preprocessing, as a comparison, take the max, min, median, mean, std of each time sequence vital signs as the basic features to predict the early mortality of patients.
+2. `models_fine-tuning.ipynb` ：The hyper-parameters of the model were fine-tuned, including logistic regression (LR), k-nearest neighbor (KNN), gaussian naive byes (GaussianNB), support vector classification (SVC), decision tree (DT), random forest (RF), adaptive boosting (AdaBoost), gradient boosting decision tree (GBDT), light gradient boosting machine (LightGBM). 
+3. `models_shap_analysis.ipynb` ：Through the shap value (a unified approach to interpreting model predictions) for model explanatory analysis.
+4. `test_critical_value.ipynb` ：The features of critical variables were constructed, but the effect was not improved.
+5. `feature_create_vital_signs.ipynb` ：Use the automation tool tsfresh          ([https://tsfresh.readthedocs.io](https://tsfresh.readthedocs.io/en/latest/)) to construct the time series-based features of vital signs, and test the preliminary effect.
+6. `time_interval_validation_vital_signs.ipynb` ：Objective to explore the influence of different time windows on the final prediction effect of patients.
+7. `nums_of_feature_comparsion.ipynb` ***(final)*** ：This paper explores the influence of the number of time series-based features on the final prediction results, as well as the cross validation, result comparison and mapping of various indicators.
